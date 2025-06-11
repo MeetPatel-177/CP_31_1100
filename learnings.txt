@@ -1,0 +1,13 @@
+---> if we want to make a number some other number x by doing some bitwise OR operations on it then remeber we have to choose such y for which (x | y) == x if it is not like then that y is not acceptable now why ? because consider bitwise representation of any number if it has anywhere 0 but after doing or with some y you get there 1 then whatever you do you will not get again 0 there aafter doing any number of OR operations.(Tenzing and Books)
+
+---> whenever there is a term like biggest x which will do something then just remember about gcd concepts.(Lunatic Never Content)
+
+---> whenever we have to make power of 2 maximum like (2^a + 2^b) maximum so just think like if we have some pairs (5,1) ans (4,4) then think which one will we take (2^5 + 2^1 = 33) ans (2^4 +2^4 = 32) so we will take (5,1) so it means whichever pair will be maximum we will take it because we just want one index higher than other no matter what is there in the second pair because if anyone of two is greater than other pair then that will make the whole sum more than the other pair.
+
+---> see when we have small constraints like 1000 then think about an approach of O(n^2) (Coprime)
+
+---> see when we have a number which we want to make divisible by some i then do num - num%i this number will be multiple of i why because whatever extra factor num has when we delete it it will eventully become divisible by i remember this thing. (Difference Of GCDs)
+
+---> see if X is a submask of any p and q then p&X = X and q&X = X and we can say p and q are supermasks of X. this concept is useful for AND Sorting when we have any element not at it's right position we have to make at least one swap so answer will be submask of that perticular swap so final answer must be bitwise and of all the elements which are not at their correct position initially. (AND Sorting)
+
+---> when we want to check for a pair if there exist some pair which have sum or difference as any perticular number in O(n) we can just use a two pointer method in which we will increase pointers accordingly the conditions. (Subtract operation)
